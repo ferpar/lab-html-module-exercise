@@ -1,0 +1,84 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: "Open Sans","Opensans", "sans-serif";
+    box-sizing: border-box;
+    min-height: 192px;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    font-family: "Source Sans Pro","Lucida Grande", "sans-serif";
+    padding: 8px 4px;
+    font-size: 14px;
+    height: 20px;
+  }
+  
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(32,101,136);
+    color: white;
+}
+
+.defloat {
+    clear:both;
+}
+
+.top-left {
+    float: left;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    font-size: 14 px;
+    margin: 0 20px 0 0;
+}
+  
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#header-section {
+    margin: 0 auto;
+    background-color:white; 
+    background-image: url(images/city-scapeV2.png);
+    height:700px;
+}
+
+#header-search {
+    background-color: rgb(31,82,111);
+    border-style: none;
+}
+
+#header-signup {
+    background-color: rgb(240,146,51);
+    color: white;
+    padding: 7px 18px 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#header-text {
+    width:60%;
+    margin: 0 0 0 15%;
+}
+
+#header-text h1 {
+    padding-top: 20%;
+    margin-bottom: 3%;
+}
+
+#header-text p {
+    width: 70%;
+    margin-bottom: 3%;
+}
