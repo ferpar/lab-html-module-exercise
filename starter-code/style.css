@@ -9,6 +9,20 @@ body {
     min-height: 192px;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 200;
+}
+
+h3 {
+    font-weight: 200;
+}
+
 nav {
     background-color: #C12127;
     color: rgba(255,255,255,0.8);
@@ -28,8 +42,49 @@ header {
     color: rgb(255,255,255);
 }
 
+.centered {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .defloat {
     clear:both;
+}
+
+.fl {
+    float:left;
+}
+
+.fr {
+    float:right;
+}
+
+.mb7 {
+    margin-bottom: 7%;
+}
+
+.mb10 {
+    margin-bottom: 10%;
+}
+
+.mt3 {
+    margin-top: 3%;
+}
+
+.mt5 {
+    margin-top: 5%;
+}
+
+.mt10 {
+    margin-top:10%;
+}
+
+mr3 {  
+    margin-right: 3%;  
+}
+
+p20 {
+    padding: 20%;
 }
 
 .top-left {
@@ -48,6 +103,26 @@ header {
     margin: 0 10px;
 }
 
+.w33 {
+    width: 33.33%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.w90 {
+    width: 90%;
+}
+
 #header-section {
     margin: 0 auto;
     background-color:white; 
@@ -61,16 +136,26 @@ header {
 }
 
 #header-signup {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
     background-color: rgb(240,146,51);
     color: rgb(255,255,255);
     padding: 7px 18px 8px 18px;
     border-radius: 20px;
     text-decoration: none;
+    line-height: 24px;
 }
 
 #header-text {
-    width:60%;
+    width:40%;
     margin: 0 0 0 15%;
+}
+
+#header-text p {
+    margin-top: 45px;
+    line-height: 30px;
+    font-size: 20px;
 }
 
 #header-text h1 {
@@ -79,8 +164,12 @@ header {
 }
 
 #header-text p {
-    width: 70%;
+    width: 80%;
     margin-bottom: 3%;
+}
+
+#header-text div {
+    margin: 30px auto;
 }
 
 #section-1 {
@@ -140,6 +229,53 @@ header {
 
 #section-2 {
     background-image: url(images/npm-is-BOXES.png);
+    background-size: cover;
     height:700px;
     color: rgb(255,255,255);
+}
+
+#s2-container {
+    width:80%;
+    margin: 0 auto;
+    padding-top: 12%;
+}
+
+#s2-container #s2-subcontainer {
+    width: 40%;
+    float: left;
+}
+
+#s2-container #s2-subcontainer p {
+    line-height: 24px;
+}
+
+#s2-container #s2-subcontainer h2 {
+    margin-bottom: 20px;
+}
+
+#s2-install {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(52,73,94);
+    border-style: solid;
+    border-color: rgb(52,73,94);
+    color: rgb(255,255,255);
+    text-decoration: solid;
+    border-radius:20px;
+    padding: 7px 18px 8px 18px;
+    margin: 18px auto 0 auto;
+    font-weight: 500;
+}
+
+#section-3 h3 {
+    margin: 20px auto;
+}
+
+#section-3 a {
+    color: rgb(203, 56, 55);
+    text-decoration: solid;
+}
+
+#section-3 p {
+    color: rgb(51,51,51)
 }
