@@ -38,7 +38,7 @@ nav a {
 }
 
 header {
-    background-color: rgb(32,101,136);
+    background-color: #235a7a;
     color: rgb(255,255,255);
 }
 
@@ -133,6 +133,10 @@ p20 {
 #header-search {
     background-color: rgb(31,82,111);
     border-style: none;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", "monospace";
+    line-height: 24px;
+    width:78%;
+    margin-right: 15px;
 }
 
 #header-signup {
@@ -170,6 +174,25 @@ p20 {
 
 #header-text div {
     margin: 30px auto;
+}
+
+#links {
+    height: 70px;
+}
+
+#links-container {
+    height:70px;
+    padding: 20px 20px 20px 30px;
+}
+
+#links-container a {
+    text-decoration: solid;
+    color: rgb(255,255,255);
+}
+
+#logo {
+    width: 70px;
+    margin-right: 20px;
 }
 
 #section-1 {
@@ -278,4 +301,4 @@ p20 {
 
 #section-3 p {
     color: rgb(51,51,51)
-}
+}   
