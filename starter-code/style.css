@@ -290,6 +290,10 @@ p20 {
     font-weight: 500;
 }
 
+#section-3 {
+    height: 515px;
+}
+
 #section-3 h3 {
     margin: 20px auto;
 }
