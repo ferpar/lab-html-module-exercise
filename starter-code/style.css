@@ -25,7 +25,7 @@ nav a {
 
 header {
     background-color: rgb(32,101,136);
-    color: white;
+    color: rgb(255,255,255);
 }
 
 .defloat {
@@ -62,7 +62,7 @@ header {
 
 #header-signup {
     background-color: rgb(240,146,51);
-    color: white;
+    color: rgb(255,255,255);
     padding: 7px 18px 8px 18px;
     border-radius: 20px;
     text-decoration: none;
@@ -81,4 +81,65 @@ header {
 #header-text p {
     width: 70%;
     margin-bottom: 3%;
+}
+
+#section-1 {
+    background-color: rgb(39,53,71);
+    color:rgb(255,255,255);
+}
+
+#s1-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 8% 0;
+}
+
+#s1-container #img-container {
+    width:50%;
+    float:left;
+}
+
+#s1-container #text-container {
+    width:40%;
+    float:right;
+}
+
+#s1-container #text-container h2 {
+    margin-bottom:20px;
+}
+
+#s1-container #text-container li {
+    line-height: 30px;
+    padding: 8px 0 8px 0;
+}
+
+#s1-container #text-container #s1-signup {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    background-color: rgb(203,56,55);
+    border-style: solid;
+    border-color: rgb(203,56,55);
+    color: rgb(255,255,255);
+    text-decoration: solid;
+    border-radius:20px;
+    padding: 7px 18px 8px 18px;
+    margin: 10px auto 20px auto;
+    font-weight: 500;
+}
+
+#s1-container #text-container #s1-learn {
+    font-weight: 600;
+    color: rgb(255,255,255);
+    text-decoration: solid;
+}
+
+#s1-container #text-container p {
+    text-align: center;
+}
+
+#section-2 {
+    background-image: url(images/npm-is-BOXES.png);
+    height:700px;
+    color: rgb(255,255,255);
 }
